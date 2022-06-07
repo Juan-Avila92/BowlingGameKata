@@ -37,6 +37,14 @@ namespace BowlingGameTests
             Assert.AreEqual(true, isSpare);
         }
 
+        [Test]
+        public void IsStrike_True_IsSpareResults()
+        {
+            var isStrike = bowlingGame.IsStrike();
+
+            Assert.AreEqual(true, isStrike);
+        }
+
         private void RollMany(int pins)
         {
             for (int rollCount = 0; rollCount < 20; rollCount++)
