@@ -10,7 +10,7 @@ namespace BowlingGame
 
         public void Roll(int numberOfpins)
         {
-            score = +0;
+            score += numberOfpins;
         }
 
         public int GetScore()
