@@ -29,6 +29,14 @@ namespace BowlingGameTests
             Assert.AreEqual(20, bowlingGame.GetScore());
         }
 
+        [Test]
+        public void IsSpare_True_IsSpareResults()
+        {
+            var isSpare = bowlingGame.IsSpare();
+
+            Assert.AreEqual(true, isSpare);
+        }
+
         private void RollMany(int pins)
         {
             for (int rollCount = 0; rollCount < 20; rollCount++)
