@@ -17,5 +17,18 @@ namespace BowlingGame
         {
             return score;
         }
+
+        public bool IsSpare()
+        {
+            Roll(5);
+            Roll(5);
+
+            if(score == 10)
+            {
+                return true;
+            }
+
+            return false;
+        }
     }
 }
