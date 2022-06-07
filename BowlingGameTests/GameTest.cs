@@ -16,11 +16,7 @@ namespace BowlingGameTests
         [Test]
         public void RollGame_0_GetScoreResults()
         {
-            for(int rollCount = 0; rollCount <= 20; rollCount++)
-            {
-                bowlingGame.Roll(0);
-            }
-
+            RollMany(0);
 
             Assert.AreEqual(0, bowlingGame.GetScore());
         }
@@ -28,13 +24,17 @@ namespace BowlingGameTests
         [Test]
         public void RollGame_20_GetScoreResults()
         {
-            for (int rollCount = 0; rollCount < 20; rollCount++)
-            {
-                bowlingGame.Roll(1);
-            }
-
+            RollMany(1);
 
             Assert.AreEqual(20, bowlingGame.GetScore());
+        }
+
+        private void RollMany(int pins)
+        {
+            for (int rollCount = 0; rollCount < 20; rollCount++)
+            {
+                bowlingGame.Roll(pins);
+            }
         }
     }
 }
