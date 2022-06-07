@@ -6,14 +6,16 @@ namespace BowlingGame
 {
     public class Game
     {
+        int score = 0;
+
         public void Roll(int numberOfpins)
         {
-
+            score = +0;
         }
 
         public int GetScore()
         {
-            return 0;
+            return score;
         }
     }
 }
