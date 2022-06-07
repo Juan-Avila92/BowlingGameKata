@@ -1,0 +1,13 @@
+D:\BowlingGameKata\BowlingGame\bin\Debug\netcoreapp3.1\BowlingGame.exe
+D:\BowlingGameKata\BowlingGame\bin\Debug\netcoreapp3.1\BowlingGame.deps.json
+D:\BowlingGameKata\BowlingGame\bin\Debug\netcoreapp3.1\BowlingGame.runtimeconfig.json
+D:\BowlingGameKata\BowlingGame\bin\Debug\netcoreapp3.1\BowlingGame.runtimeconfig.dev.json
+D:\BowlingGameKata\BowlingGame\bin\Debug\netcoreapp3.1\BowlingGame.dll
+D:\BowlingGameKata\BowlingGame\bin\Debug\netcoreapp3.1\BowlingGame.pdb
+D:\BowlingGameKata\BowlingGame\obj\Debug\netcoreapp3.1\BowlingGame.csprojAssemblyReference.cache
+D:\BowlingGameKata\BowlingGame\obj\Debug\netcoreapp3.1\BowlingGame.AssemblyInfoInputs.cache
+D:\BowlingGameKata\BowlingGame\obj\Debug\netcoreapp3.1\BowlingGame.AssemblyInfo.cs
+D:\BowlingGameKata\BowlingGame\obj\Debug\netcoreapp3.1\BowlingGame.csproj.CoreCompileInputs.cache
+D:\BowlingGameKata\BowlingGame\obj\Debug\netcoreapp3.1\BowlingGame.dll
+D:\BowlingGameKata\BowlingGame\obj\Debug\netcoreapp3.1\BowlingGame.pdb
+D:\BowlingGameKata\BowlingGame\obj\Debug\netcoreapp3.1\BowlingGame.genruntimeconfig.cache
