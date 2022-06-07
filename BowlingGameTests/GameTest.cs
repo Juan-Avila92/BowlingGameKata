@@ -14,9 +14,15 @@ namespace BowlingGameTests
         }
 
         [Test]
-        public void Test1()
+        public void StartGame_0_GetScoreResults()
         {
+            for(int rollCount = 0; rollCount <= 20; rollCount++)
+            {
+                bowlingGame.Roll(0);
+            }
 
+
+            Assert.AreEqual(0, bowlingGame.GetScore());
         }
     }
 }
